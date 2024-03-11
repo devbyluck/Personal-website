@@ -1,0 +1,31 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#app {
+    background-color: #101010;
+}
+
+#profile-picture {
+    border: 3px solid darkgrey;
+}
+
+.card-styles-default {
+    height: 100%; 
+    max-height: auto; 
+    width: 100%;
+    max-width: 100%;
+    border: none; 
+    background-color: #101010; 
+    margin-bottom: 1rem;
+}
+
+.dev-logo {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.creative-logo {
+    width: 1.8rem;
+    height: 1.8rem;
+}
