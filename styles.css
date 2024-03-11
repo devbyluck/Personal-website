@@ -6,22 +6,18 @@
     background-color: #101010;
 }
 
-#profile-picture {
-    
-}
-
 .glow {
     color: #111;
-    background: greenyellow;
-    box-shadow: 0 0 100px greenyellow;
-    transition: 1s;
+    background: white;
+    box-shadow: 10px 15px 60px white;
+    transition: 0.4s;
 }
 
 .glow:hover {
     color: #111;
-    background: purple;
-    box-shadow: 0 0 100px lightpink;
-    transition: 1s;
+    background: white;
+    box-shadow: 0 0 100px #087cfc;
+    transition: 0.1s;
 }
 
 .card-styles-default {
@@ -56,3 +52,22 @@
     100% { background-position: 100% 0%; }
   }
   
+  .load {
+    color: #111;
+    background: white;;
+    box-shadow: 0 0 10px grey;
+    transition: 0.4s;
+}
+
+.load:hover {
+    color: #111;
+    background: white;
+    font-size: 102%;
+    box-shadow: 0 0 20px #087cfc;
+    cursor:crosshair;
+    transition: 0.1s;
+}
+
+.name:hover, .description:hover {
+    cursor: default;
+}
