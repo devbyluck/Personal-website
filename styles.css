@@ -7,7 +7,21 @@
 }
 
 #profile-picture {
-    border: 3px solid darkgrey;
+    
+}
+
+.glow {
+    color: #111;
+    background: greenyellow;
+    box-shadow: 0 0 100px greenyellow;
+    transition: 1s;
+}
+
+.glow:hover {
+    color: #111;
+    background: purple;
+    box-shadow: 0 0 100px lightpink;
+    transition: 1s;
 }
 
 .card-styles-default {
@@ -23,9 +37,22 @@
 .dev-logo {
     width: 2.8rem;
     height: 2.8rem;
+    cursor: help;
 }
 
 .creative-logo {
     width: 1.8rem;
     height: 1.8rem;
+    cursor: help;
 }
+
+.animated-gradient {
+    animation: animateBg 14s linear infinite;
+    background-image: linear-gradient(90deg,#71c66c,#ff8000,#db5779,#71c66c,#ff8000);
+    background-size: 400% 100%;
+  }
+  @keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 0%; }
+  }
+  
